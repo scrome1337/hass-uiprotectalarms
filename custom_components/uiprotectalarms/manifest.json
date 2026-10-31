@@ -8,7 +8,7 @@
   "dependencies": [],
   "documentation": "https://github.com/scrome1337/hass-uiprotectalarms/blob/main/README.md",
   "integration_type": "hub",
-  "iot_class": "cloud_push",
+  "iot_class": "local_polling",
   "issue_tracker": "https://github.com/scrome1337/hass-uiprotectalarms/issues",
   "loggers": [
     "uiprotectalarms",
