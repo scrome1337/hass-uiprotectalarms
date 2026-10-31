@@ -1,13 +1,18 @@
 {
   "domain": "uiprotectalarms",
-  "name": "Unifi Protect Alarm Integration",
-  "codeowners": ["@jeffsteinbok"],
+  "name": "Unifi Protect Alarm Integration (scrome1337)",
+  "codeowners": [
+    "@scrome1337"
+  ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/jeffsteinbok/hass-uiprotectalarms/blob/main/README.md",
+  "documentation": "https://github.com/scrome1337/hass-uiprotectalarms/blob/main/README.md",
   "integration_type": "hub",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/jeffsteinbok/hass-uiprotectalarms/issues",  
-  "loggers": ["uiprotectalarms", "pyuiprotectalarms"],
-  "version": "0.0.6"
+  "issue_tracker": "https://github.com/scrome1337/hass-uiprotectalarms/issues",
+  "loggers": [
+    "uiprotectalarms",
+    "pyuiprotectalarms"
+  ],
+  "version": "0.0.7"
 }

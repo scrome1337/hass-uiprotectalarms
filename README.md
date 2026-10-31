@@ -1,7 +1,17 @@
-# HomeAssistant Plugin for Enabling/Disabling Unifi Protect Alarms
+# Unifi Protect Alarm Integration (scrome1337 Fork)
 
-[![CI Validation](https://github.com/JeffSteinbok/hass-uiprotectalarms/actions/workflows/ci.yaml/badge.svg)](https://github.com/JeffSteinbok/hass-uiprotectalarms/actions/workflows/ci.yaml)
-[![Release Automation](https://github.com/JeffSteinbok/hass-uiprotectalarms/actions/workflows/release.yaml/badge.svg)](https://github.com/JeffSteinbok/hass-uiprotectalarms/actions/workflows/release.yaml)
+Fork von [JeffSteinbok/hass-uiprotectalarms](https://github.com/JeffSteinbok/hass-uiprotectalarms), gepflegt von [@scrome1337](https://github.com/scrome1337).
+
+**Änderungen gegenüber dem Original (ab 0.0.7):**
+- Automatische Neuanmeldung, wenn die Sitzung zum NVR abläuft (vorher scheiterten Schaltbefehle danach still)
+- Fehler beim Schalten werden in Home Assistant angezeigt statt verschluckt
+- Alarmzustand wird alle 5 Minuten aus Protect gelesen
+- Fallback für Protect-Versionen ohne Einzelabfrage eines Alarms (404)
+- Behoben: Absturz beim Zustands-Update, kaputtes Optionsmenü, Absturz von `refresh_alarms`
+
+Original-README:
+
+
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
